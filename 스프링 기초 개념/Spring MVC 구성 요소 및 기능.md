@@ -24,6 +24,8 @@
 
 - **설명** : 최종적으로 사용자에게 보여지는 화면을 담당합니다. 모델을 사용하여 웹 브라우저에 표시될 리소스를 생성합니다.
 
+<img src="img/spring_mvc_flow.png">
+
 ## 🔄 Spring MVC 동작 흐름
 
 1. **요청 수신** : 클라이언트가 특정 URL로 HTTP 요청을 보내면, DispatcherServlet이 이를 받습니다.
@@ -42,3 +44,7 @@
    DispatcherServlet은 뷰와 모델을 뷰 컴포넌트로 전달하고, 뷰 컴포넌트는 이를 사용하여 최종 HTML 응답을 생성합니다.
 9. **응답 반환** :
    생성된 HTML 응답은 DispatcherServlet을 통해 클라이언트에게 전송됩니다.
+
+---
+
+참고자료 : https://www.javaguides.net/2020/07/how-spring-mvc-works-internally.html
