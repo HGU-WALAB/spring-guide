@@ -24,7 +24,7 @@
 
 - **설명** : 최종적으로 사용자에게 보여지는 화면을 담당합니다. 모델을 사용하여 웹 브라우저에 표시될 리소스를 생성합니다.
 
-<img src="img/spring_mvc_flow.png">
+<img src="../img/spring-mvc-flow.png">
 
 ## 🔄 Spring MVC 동작 흐름
 
